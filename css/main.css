@@ -44,7 +44,9 @@ button {
 .col-3 {
     width: 25%;
 }
-
+.col-2 {
+    width: 20%;
+}
 .d-flex {
     display: flex;
 }
@@ -277,3 +279,56 @@ button {
     height: 100%;
 }
 /* WORK PROCCESS SECTION */
+/* SERVICES SECTION */
+.services {
+    padding: 100px 0 100px;
+    background-color: #eeecec;
+}
+.sevices_card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:  30px 15px;
+    text-align: center;
+}
+.service_name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.services .fa-solid, .services .fa-brands {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+/* SERVICES SECTION */
+/* QUOT SECTION */
+.quotes {
+    padding: 150px 0 50px;
+    background-color: rgb(54, 212, 212);
+}
+.quot_content {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.quot {
+    margin-bottom: 20px;
+}
+.quot_author {
+    margin-bottom: 80px;
+}
+.slide {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* QUOT SECTION */
+/* PARTNERS SECTION */
+.partners {
+    padding: 80px 0 80px;
+    background-color: #fafafa;
+}
+/* PARTNERS SECTION */
